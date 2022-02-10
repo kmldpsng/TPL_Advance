@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace DataSharingAndSynchronization
+namespace TPL_Advance
 {
   class MutexExample
   {

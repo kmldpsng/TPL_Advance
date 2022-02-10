@@ -4,7 +4,7 @@ using System.Configuration;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace DataSharingAndSynchronization
+namespace TPL_Advance
 {
   class SpinLocking
   {

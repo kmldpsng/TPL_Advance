@@ -1,4 +1,4 @@
-namespace IntroducingTasks
+namespace TPL_Advance
 {
   using System;
   using System.Diagnostics.PerformanceData;

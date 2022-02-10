@@ -1,0 +1,34 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="DataSharingAndSynchronization_01CriticalSections.cs" />
+    <Compile Remove="DataSharingAndSynchronization_02InterlockedOperations.cs" />
+    <Compile Remove="DataSharingAndSynchronization_03SpinLocking.cs" />
+    <Compile Remove="DataSharingAndSynchronization_04Mutex.cs" />
+    <Compile Remove="DataSharingAndSynchronization_05ReaderWriterLocks.cs" />
+    <Compile Remove="TaskProgramming_01CreatingAndStartingTasks.cs" />
+    <Compile Remove="TaskProgramming_02CancellingTasks.cs" />
+    <Compile Remove="TaskProgramming_03WaitingForTimeToPass.cs" />
+    <Compile Remove="TaskProgramming_04WaitingForTasks.cs" />
+    <Compile Remove="TaskProgramming_05ExceptionHandling.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="DataSharingAndSynchronization_01CriticalSections.cs" />
+    <None Include="DataSharingAndSynchronization_02InterlockedOperations.cs" />
+    <None Include="DataSharingAndSynchronization_03SpinLocking.cs" />
+    <None Include="DataSharingAndSynchronization_04Mutex.cs" />
+    <None Include="DataSharingAndSynchronization_05ReaderWriterLocks.cs" />
+    <None Include="TaskProgramming_01CreatingAndStartingTasks.cs" />
+    <None Include="TaskProgramming_02CancellingTasks.cs" />
+    <None Include="TaskProgramming_03WaitingForTimeToPass.cs" />
+    <None Include="TaskProgramming_04WaitingForTasks.cs" />
+    <None Include="TaskProgramming_05ExceptionHandling.cs" />
+  </ItemGroup>
+
+</Project>
